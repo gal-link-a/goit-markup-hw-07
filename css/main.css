@@ -171,8 +171,7 @@ textarea {
   border-radius: 2px;
 }
 
-.navigation-list-link:hover,
-.navigation-list-link:focus,
+.navigation-list-link:hover, .navigation-list-link:focus,
 .header-mail-link:hover,
 .header-mail-link:focus,
 .header-tel-link:hover,
@@ -213,8 +212,7 @@ textarea {
   background: var(--accent-text-color);
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
+.modal-btn:hover, .modal-btn:focus {
   background: var(--accent-text-color);
 }
 
@@ -241,8 +239,7 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-button:hover,
-.portfolio-button:focus {
+.portfolio-button:hover, .portfolio-button:focus {
   color: var(--reserve-text-color);
   background: var(--accent-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -255,15 +252,14 @@ textarea {
   top: 8px;
   right: 8px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
 
-.modal-close :hover,
-.modal-close :focus {
+.modal-close:hover, .modal-close:focus {
   fill: var(--accent-text-color);
 }
 
@@ -314,7 +310,7 @@ textarea {
   margin-bottom: 10px;
 }
 
-.form-field.comment {
+.form-field .comment {
   margin-bottom: 20px;
 }
 
@@ -348,13 +344,11 @@ textarea {
   color: rgba(117, 117, 117, 0.5);
 }
 
-/* .field-input:hover, */
 .field-input:focus {
   border-color: var(--accent-text-color);
   outline: none;
 }
 
-/* .field-input:hover + .icon-input, */
 .field-input:focus + .icon-input {
   fill: var(--accent-text-color);
 }
@@ -535,8 +529,8 @@ textarea {
   width: 100%;
   height: 70px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   background: rgba(47, 48, 58, 0.8);
 }
 
@@ -548,7 +542,6 @@ textarea {
 
 .our-team-card {
   background: var(--reserve-text-color);
-  /* padding-bottom: 30px; */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -596,9 +589,6 @@ textarea {
 
 .our-team-desc {
   padding: 30px 10px;
-  /* margin-top: 30px;
-  padding-right: 32px;
-  padding-left: 32px; */
 }
 
 .our-team-social-list {
@@ -606,8 +596,6 @@ textarea {
   justify-content: space-between;
   margin: 0 auto;
   width: 206px;
-  /* margin-top: 16px; */
-  /* color: var(--secondary-text-color); */
 }
 
 .our-team-social-link {
@@ -621,8 +609,7 @@ textarea {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-team-social-link:hover,
-.our-team-social-link:focus {
+.our-team-social-link:hover, .our-team-social-link:focus {
   background-color: var(--accent-text-color);
   color: var(--reserve-text-color);
 }
@@ -668,8 +655,7 @@ textarea {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients-link:hover, .clients-link:focus {
   color: var(--accent-text-color);
   border-color: var(--accent-text-color);
 }
@@ -777,8 +763,7 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-link:hover,
-.footer-social-link:focus {
+.footer-social-link:hover, .footer-social-link:focus {
   background-color: var(--accent-text-color);
 }
 
@@ -853,18 +838,12 @@ textarea {
   width: 370px;
 }
 
-/* .projects-item-card:hover,
-.projects-item-card:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-} */
 .card-link {
   display: inline-block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card-link:hover,
-.card-link:focus {
+.card-link:hover, .card-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -917,8 +896,7 @@ textarea {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card-link:hover .card-blue-text,
-.card-link:focus .card-blue-text {
+.card-link:hover .card-blue-text, .card-link:focus .card-blue-text {
   transform: translateY(0%);
   opacity: 1;
 }
